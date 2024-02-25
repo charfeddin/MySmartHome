@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0c4cd0-b408-468d-ad63-58d44a3c4137" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/AfficherEquipement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/AfficherHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/AjouterEquipementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/AjouterHomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/controller/ModifierEquipementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/entities/Equipement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/entities/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/services/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/services/ServiceEquipement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/services/ServiceHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysmarthousepidev/utils/MyDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AfficherEquipement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AjouterEquipement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AjouterHome.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ModifierEquipement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ModifierHome.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/mysmarthousepidev/AfficherHome.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +53,8 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Mon Pc/IdeaProjects/MySmartHousePidev/src/main/java/com/example/mysmarthousepidev",
-    "last_opened_file_path": "C:/Users/Mon Pc/Desktop/MySmartHousePidev"
+    "last_opened_file_path": "C:/Users/Mon Pc/Desktop/MySmartHousePidev",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
