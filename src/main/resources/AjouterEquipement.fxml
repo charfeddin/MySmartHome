@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="iv_photo" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mysmarthousepidev.controller.AjouterEquipementController">
+   <children>
+      <AnchorPane prefHeight="501.0" prefWidth="613.0">
+         <children>
+            <TextField fx:id="nom" layoutX="171.0" layoutY="129.0" />
+            <Button layoutX="226.0" layoutY="435.0" mnemonicParsing="false" onAction="#ajt" text="Ajouter" />
+            <Label layoutX="87.0" layoutY="133.0" text="Nom" />
+            <Label layoutX="87.0" layoutY="192.0" text="Description" />
+            <Label layoutX="90.0" layoutY="303.0" text="Nombre" />
+            <TextField fx:id="des" layoutX="171.0" layoutY="188.0" />
+            <ChoiceBox fx:id="etat" layoutX="171.0" layoutY="363.0" prefWidth="150.0" />
+            <Label layoutX="134.0" layoutY="23.0" text="Ajouter Equipement">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="temp" layoutX="171.0" layoutY="238.0" />
+            <TextField fx:id="nbr" layoutX="171.0" layoutY="299.0" />
+            <Label layoutX="107.0" layoutY="367.0" text="Etat" />
+            <Label layoutX="84.0" layoutY="242.0" text="Temperature" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

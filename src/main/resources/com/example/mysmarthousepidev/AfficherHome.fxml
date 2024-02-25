@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mysmarthousepidev.controller.AfficherHome">
+   <children>
+      <TableView fx:id="table" layoutX="39.0" layoutY="100.0" prefHeight="200.0" prefWidth="513.0">
+        <columns>
+          <TableColumn fx:id="adress" minWidth="0.0" prefWidth="117.0" text="Adresse" />
+          <TableColumn fx:id="disponibilite" prefWidth="144.0" text="Disponibilite" />
+            <TableColumn fx:id="Designation" minWidth="0.0" prefWidth="251.0" text="Designation" />
+        </columns>
+      </TableView>
+      <Label layoutX="227.0" layoutY="32.0" text="Home List">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="195.0" layoutY="334.0" mnemonicParsing="false" onAction="#modifier" text="Modifier" />
+      <Button layoutX="296.0" layoutY="334.0" mnemonicParsing="false" onAction="#supprimer" text="Supprimer" />
+      <Button layoutX="107.0" layoutY="334.0" mnemonicParsing="false" onAction="#Ajouter" text="Ajouter" />
+      <Button layoutX="452.0" layoutY="40.0" mnemonicParsing="false" prefHeight="25.0" onAction="#equipement" prefWidth="134.0" text="Ajouter Equipement" />
+   </children>
+</AnchorPane>
