@@ -1,0 +1,139 @@
+.root {
+    -fx-background-color: #EAEEF4;
+}
+
+.side_ankerpane {
+    -fx-background-color: #1A5276 ;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #000000;
+}
+
+.inner_pane {
+    -fx-background-color: #EAEEF4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #000000;
+}
+
+.most_inner_pane {
+    -fx-background-color: #D3D3D3;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #D3D3D3;
+}
+
+.btn_workbench {
+    -fx-background-color: #1E56A2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #1E56A2;
+    -fx-text-fill: white;
+}
+
+.text_search {
+    -fx-background-color: #EAEEF4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #000000;
+}
+
+#btn_ajouter,
+#btn_afficher,
+#btn_supprimer,
+#btn_modifier {
+    -fx-background-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+}
+
+
+#btn_workbench11,
+#btn_workbench0,
+#btn_workbench111{
+    -fx-background-color: #1A5276;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #000000;
+    -fx-text-fill: white;
+}
+#col_modifier .button {
+    -fx-background-color: #3498DB;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+}
+
+/* Supprimer */
+#col_supprimer .button {
+    -fx-background-color: #3498DB;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+}
+.tv_pack {
+    -fx-background-color: #DB8E34; /* Set background color */
+}
+.table-column {
+    -fx-font-size: 14px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight */
+}
+.afficher_bg{
+    -fx-background-color: #DB8E34; /* Set background color */
+
+
+}
+
+.tv_categorie {
+    -fx-background-color: #3498DB; /* Set background color */
+}
+
+.btnAjouter{
+    -fx-background-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+
+}
+.btnAfficherCategories{
+    -fx-background-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+
+}
+.btn_workbenchCategorie{
+    -fx-background-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+
+}
+.btn_workbench1{
+    -fx-background-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: white;
+
+}
