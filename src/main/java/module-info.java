@@ -1,14 +1,11 @@
-module com.example.mysmarthousepidev {
+module tn.esprit.jihencommande {
     requires javafx.controls;
     requires javafx.fxml;
-
-    requires org.controlsfx.controls;
     requires java.sql;
-
-    opens com.example.mysmarthousepidev to javafx.fxml;
-    exports com.example.mysmarthousepidev;
-
-    opens com.example.mysmarthousepidev.entities to javafx.base;
+    requires twilio;
+    requires itextpdf;
 
 
+    opens gui to javafx.fxml;
+    exports gui;
 }
