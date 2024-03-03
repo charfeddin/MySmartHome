@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.validation.RequiredFieldValidator?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Label?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.rafafx.PostDialog"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Pane layoutY="-14.0" prefHeight="592.0" prefWidth="813.0">
+    <children>
+    <JFXTextField fx:id="titre" labelFloat="true" layoutX="208.0" layoutY="156.0" prefHeight="25.0" prefWidth="308.0" promptText="Titre" >
+        <validators>
+            <RequiredFieldValidator message="Champ Label Obligatoire">
+                <!--                  <FontIcon iconLiteral="fas-exclamation-triangle"/>-->
+            </RequiredFieldValidator>
+        </validators>
+    </JFXTextField>
+
+
+    <JFXTextField fx:id="description" labelFloat="true" layoutX="208.0" layoutY="100" prefHeight="25.0" prefWidth="308.0" promptText="Description" >
+        <validators>
+            <RequiredFieldValidator message="Champ Description Obligatoire">
+                <!--                  <FontIcon iconLiteral="fas-exclamation-triangle"/>-->
+            </RequiredFieldValidator>
+        </validators>
+    </JFXTextField>
+        <JFXButton fx:id="chooseImageButton" buttonType="RAISED" layoutX="208.0" layoutY="200.0" onAction="#chooseImage" prefHeight="25.0" prefWidth="150.0" text="Choose Image">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </JFXButton>
+
+        <!-- Label to display selected image file name -->
+        <Label fx:id="selectedImageLabel" layoutX="208.0" layoutY="230.0" prefHeight="25.0" prefWidth="308.0" text="No image selected" />
+    <JFXButton fx:id="add" buttonType="RAISED" layoutX="269.0" layoutY="500.0" onAction="#AddPost" prefHeight="33.0" prefWidth="115.0" stylesheets="@images/css.css" text="Enregistrer" textFill="#0c8318">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </JFXButton>
+    <JFXButton fx:id="Annuler" buttonType="RAISED" layoutX="401.0" layoutY="500.0" onAction="#vider" prefHeight="33.0" prefWidth="115.0" stylesheets="@images/css.css" text="Annuler" textFill="#f70000bb">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </JFXButton>
+    <JFXButton fx:id="retour" buttonType="RAISED" layoutX="24.0" layoutY="38.0" onAction="#Retour" prefHeight="31.0" prefWidth="115.0" stylesheets="@images/css.css" text="Retour" textFill="WHITE">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </JFXButton>
+        <JFXButton fx:id="qrCodeButton" buttonType="RAISED" layoutX="24.0" layoutY="80.0" onAction="#generateQRCodeAction" prefHeight="31.0" prefWidth="115.0" stylesheets="@images/css.css" text="QR Code" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </JFXButton>
+    </children>
+    </Pane>
+
+</AnchorPane>

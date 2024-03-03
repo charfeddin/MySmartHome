@@ -1,14 +1,12 @@
-package services;
+package com.example.rafafx.services;
 
-import java.sql.SQLException;
+
 import java.util.List;
 
 public interface IService <T>{
-    public  void ajouter(T t ) throws SQLException;
-    public  void modifier(T t ) throws SQLException;
-    public  void supprimer(T t )throws SQLException ;
-    public List<T> afficher() throws SQLException;
-
-
-
+    public void ajouter(T p);
+    public void supprimer(int id);
+    public void modifier(T p);
+    public List<T> getAll();
+    public T getTbyId(int id);
 }
