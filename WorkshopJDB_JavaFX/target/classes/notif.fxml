@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.notifController">
+   <children>
+      <TableView fx:id="tv_pack1"  prefHeight="398.0" prefWidth="830.0" styleClass="tv_pack" stylesheets="@css/style.css">
+         <columns>
+            <TableColumn fx:id="col_description1" prefWidth="829.5999939084053" text="notification" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
