@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.reclamationprojet.controller.Statistique">
+   <children>
+      <BarChart fx:id="barChart" layoutX="56.0" layoutY="85.0" prefHeight="258.0" prefWidth="509.0">
+         <xAxis>
+            <CategoryAxis fx:id="Xsujet" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="yNombre" side="LEFT" />
+         </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
